@@ -1,0 +1,26 @@
+{
+  "name": "webpack-bundler",
+  "version": "0.0.1",
+  "description": "A sample webpack-bundler",
+  "main": "lib/webpack",
+  "bin": {
+    "webpack-bundler": "./bin/webpack.js"
+  },
+  "dependencies": {
+    "esprima": "^4.0.0",
+    "google-closure-compiler-js": "^20180319.0.0",
+    "yargs": "^11.0.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bundler",
+    "webpack"
+  ],
+  "author": "chunk.cj",
+  "license": "MIT"
+}
